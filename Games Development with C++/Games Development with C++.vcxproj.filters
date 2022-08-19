@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Code">
+      <UniqueIdentifier>{7f597bfc-6e94-47e2-a2b5-b3af90edd548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP">
+      <UniqueIdentifier>{24d43dde-1254-4287-8236-c28ae6411708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\Major">
+      <UniqueIdentifier>{1e70ac96-0b0d-400d-9edb-9eabb9f8792f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\Managers">
+      <UniqueIdentifier>{509196a2-fda6-4055-96a3-bd579c82b9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\Scenes">
+      <UniqueIdentifier>{bfd91ab8-e2cf-4e4a-baac-f677961d021a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\Snake">
+      <UniqueIdentifier>{42cbb957-325d-4bd5-92c2-7b1fd513295b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\Widgets">
+      <UniqueIdentifier>{e98d5258-d761-4eab-869f-f428cd662f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H">
+      <UniqueIdentifier>{3c04b254-a051-4220-82df-19ed4bf1bb66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\Major">
+      <UniqueIdentifier>{020c038f-5ff2-47c0-b0d4-b6f7f797aea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\Scenes">
+      <UniqueIdentifier>{d4b43de7-addc-4660-a888-4c638f89c09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\Snake">
+      <UniqueIdentifier>{2c24f41a-c80b-4f37-a2c3-69e16610de67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\Widgets">
+      <UniqueIdentifier>{8d1c3555-f163-403c-b51a-0662d6a0ab9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\PathFinding">
+      <UniqueIdentifier>{6778c326-be75-4d1d-9e58-1fdcbb3c8311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\PathFinding">
+      <UniqueIdentifier>{475fda0b-a358-47ac-ab2d-2df320f84b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\DataStructures">
+      <UniqueIdentifier>{fbc3c095-45ee-4c5f-b175-e69c7d70feb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\DataStructures">
+      <UniqueIdentifier>{fbe83878-3935-4ae6-b6cd-e92f6a877aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\Utilitys">
+      <UniqueIdentifier>{9d33bdb2-3ac5-4cd5-a218-04f92278d355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\CPP\Utilities">
+      <UniqueIdentifier>{e8a67545-fa57-4336-b9d3-af4fbc85ca01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\H\Managers">
+      <UniqueIdentifier>{e6d7707b-9fb5-4966-b3da-1508fbfea298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="A0040053_RioMilano_SnakeProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublyLinkedList.cpp">
+      <Filter>Game Code\CPP\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue.cpp">
+      <Filter>Game Code\CPP\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Game Code\CPP\Major</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Game Code\CPP\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Game Code\CPP\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game Code\CPP\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game Code\CPP\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Game Code\CPP\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Game Code\CPP\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Game Code\CPP\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigureScene.cpp">
+      <Filter>Game Code\CPP\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndScene.cpp">
+      <Filter>Game Code\CPP\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>Game Code\CPP\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game Code\CPP\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteScene.cpp">
+      <Filter>Game Code\CPP\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="AISnake.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleCollectable.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="BatteryCollectable.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSnake.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeSegment.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Two_PlayerSnake.cpp">
+      <Filter>Game Code\CPP\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Game Code\CPP\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideBar.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaderboardWidget.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockWidget.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBoxWidget.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Game Code\CPP\Widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoublyLinkedList.h">
+      <Filter>Game Code\H\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Code\H\Major</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Game Code\H\Major</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Game Code\H\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Code\H\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game Code\H\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Game Code\H\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Game Code\H\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="GridNode.h">
+      <Filter>Game Code\H\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Game Code\H\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigureScene.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndScene.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Game Code\H\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteScene.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="AISnake.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleCollectable.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="BatteryCollectable.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBoxWidget.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockWidget.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="E_CollectableType.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSnake.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="LeaderboardWidget.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Game Code\H\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideBar.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeSegment.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Game Code\H\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Game Code\H\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Two_PlayerSnake.h">
+      <Filter>Game Code\H\Snake</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
